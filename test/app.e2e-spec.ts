@@ -22,4 +22,8 @@ describe('AppController (e2e)', () => {
       .expect(200)
       .expect('Hello World!');
   });
+
+  it('should be 4', () => {
+    expect(2 + 2).toEqual(4);
+  });
 });
